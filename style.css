@@ -1,0 +1,41 @@
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  background-color: hsl(275, 100%, 97%);
+  color: hsl(292, 42%, 14%);
+}
+
+.page {
+  background-color: white;
+  padding: 25px;
+  width: 500px;
+  height: 450px;
+  border-radius: 20px;
+}
+
+.divider {
+  border: 0.1px solid lightgray;
+  opacity: 20%;
+}
+
+.faq {
+  display: flex;
+  align-items: center;
+}
+
+.questions p {
+  color: hsl(292, 16%, 49%);
+}
+
+.question {
+  display: flex;
+  align-items: center;
+}
+
+.more {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
